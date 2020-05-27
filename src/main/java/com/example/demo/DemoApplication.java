@@ -1,11 +1,11 @@
 package com.example.demo;
 
 import com.example.spring.*;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.*;
+import org.springframework.boot.autoconfigure.*;
 
 @SpringBootApplication
-@EnableCustom(basePackages = "com.example.demo.custom")
+@EnableCustom
 public class DemoApplication {
 
 	public static void main(String[] args) {
